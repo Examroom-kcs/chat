@@ -24,8 +24,8 @@ app_include_js = ['chat.bundle.js'] if is_frappe_above_v13 else [
 # include js, css files in header of web template
 web_include_css = ['chat.bundle.css'] if is_frappe_above_v13 else [
     '/assets/css/chat.css']
-web_include_js = ['chat.bundle.js'] if is_frappe_above_v13 else [
-    '/assets/js/chat.js']
+# web_include_js = ['chat.bundle.js'] if is_frappe_above_v13 else [
+#     '/assets/js/chat.js']
 
 # include custom scss in every website theme (without file extension ".scss")
 # website_theme_scss = "chat/public/scss/website"
